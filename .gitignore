@@ -12,3 +12,5 @@ jsconfig.json
 .idea/
 .DS_Store
 ecosystem.config.js
+yarn.lock
+yarn-error.log

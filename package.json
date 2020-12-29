@@ -1,7 +1,7 @@
 {
   "name": "leadwallet-blog",
   "version": "1.0.23",
-  "description": "LeadWallet is an Open Source  based knowledge base/FAQ/Wiki app with powerful lunr search",
+  "description": "LeadWallet is an Open Source based knowledge base/FAQ/Wiki app with powerful lunr search",
   "private": false,
   "scripts": {
     "start": "node app.js",

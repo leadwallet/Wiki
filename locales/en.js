@@ -41,7 +41,7 @@
 	"false": "false",
 	"Controls whether to show the 'Website title' text or a logo located: '/public/logo.png' (by default)": "Controls whether to show the 'Website title' text or a logo located: '/public/logo.png' (by default)",
 	"Website context/base URL": "Website context/base URL",
-	"Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/openkb/": "Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/openkb/",
+	"Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/leadwiki/": "Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/leadwiki/",
 	"Allow API access": "Allow API access",
 	"Whether to allow API access to insert articles - See documentation for further information": "Whether to allow API access to insert articles - See documentation for further information",
 	"API access token": "API access token",

@@ -41,7 +41,7 @@
 	"false": "falskt",
 	"Controls whether to show the 'Website title' text or a logo located: '/public/logo.png' (by default)": "styr ifall 'webbplatsens titel' , 'text' eller om en logotyp skall visas, plats'/public/logo.png' (som standard)",
 	"Website context/base URL": "Webbplatsens kontext/root URL",
-	"Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/openkb/": "Tillåter att webbplatsen körs från en icke-root-sökväg. Ex: http://127.0.0.1:4444/openkb/",
+	"Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/leadwiki/": "Tillåter att webbplatsen körs från en icke-root-sökväg. Ex: http://127.0.0.1:4444/leadwiki/",
 	"Allow API access": "Tillåt API-åtkomst",
 	"Whether to allow API access to insert articles - See documentation for further information": "Om du vill tillåta API-åtkomst för att infoga artiklar - Se dokumentation för ytterligare information",
 	"API access token": "API access token",

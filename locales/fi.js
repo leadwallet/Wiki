@@ -41,7 +41,7 @@
   "false": "Ei",
   "Controls whether to show the 'Website title' text or a logo located: '/public/logo.png' (by default)": "Määrittää näytetäänkö sivuston otsikko vai logo (sijainnissa '/public/logo.png')",
   "Website context/base URL": "Sivuston osoite",
-  "Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/openkb/": "Sallii sivuston näkymisen ei-juuripolussa, esim http://127.0.0.1/openkb/",
+  "Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/leadwiki/": "Sallii sivuston näkymisen ei-juuripolussa, esim http://127.0.0.1/leadwiki/",
   "Allow API access": "Salli API käyttö",
   "Whether to allow API access to insert articles - See documentation for further information": "Sallittaanko artikkelien lisääminen APIn kautta - katso dokumentaatiosta lisätiedot",
   "API access token": "API-käyttöavain",

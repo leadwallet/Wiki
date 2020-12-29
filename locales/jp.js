@@ -41,7 +41,7 @@
 	"false": "無効",
 	"Controls whether to show the 'Website title' text or a logo located: '/public/logo.png' (by default)": "'ウェブサイトのタイトル'を表示させるか、'/public/logo.png'(デフォルト値)に存在するロゴを表示するかを設定します",
 	"Website context/base URL": "URL体系の設定",
-	"Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/openkb/": "サイトのURLをルートパス以外に設定したい場合(http://localhost/openkb 等)",
+	"Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/leadwiki/": "サイトのURLをルートパス以外に設定したい場合(http://localhost/leadwiki 等)",
 	"Allow API access": "APIのアクセスを許可",
 	"Whether to allow API access to insert articles - See documentation for further information": "APIアクセスによる記事の更新等を許可するかどうかの設定です - 詳しくは、ドキュメンテーションを参照してください",
 	"API access token": "APIアクセストークン",

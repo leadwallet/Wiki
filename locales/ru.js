@@ -40,7 +40,7 @@
 	"false": "false",
 	"Controls whether to show the 'Website title' text or a logo located: '/public/logo.png' (by default)": "Управляет отображением текста «Название сайта» или логотипа, расположенного: '/public/Logo.png' (по умолчанию) ",
 	"Website context/base URL": "Базовый URL сайта",
-	"Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/openkb/": "Позволяет запускать веб-сайт с другого пути, например: http: // 127.0.0.1:4444/openkb/",
+	"Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/leadwiki/": "Позволяет запускать веб-сайт с другого пути, например: http: // 127.0.0.1:4444/leadwiki/",
 	"Allow API access": "Разрешить доступ к API",
 	"Whether to allow API access to insert articles - See documentation for further information": "Разрешить ли API доступ к статьям вставки - см. Документацию для получения дополнительной информации»",
 	"API access token": "Токен доступа API",

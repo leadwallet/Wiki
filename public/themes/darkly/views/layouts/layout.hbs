@@ -24,14 +24,14 @@
         <meta name="description" content="{{substring (strip_md result.kb_body) 160}}">
         <meta property="og:description" content="{{substring (strip_md result.kb_body) 160}}" />
       {{else}}
-        <meta name="description" content="{{__ "Powered by"}} openKB">
-        <meta property="og:description" content="openKB is an Open Source Node.js Markdown based knowledge base/FAQ/Wiki app with powerful lunr search" />
+        <meta name="description" content="{{__ "Powered by"}} leadwiki">
+        <meta property="og:description" content="leadwiki is an Open Source Node.js based knowledge base/FAQ/Wiki app with powerful lunr search" />
       {{/if}}
     {{/if}}
     {{#if result.kb_keywords}}
       <meta name="keywords" content="{{result.kb_keywords}}">
     {{else}}
-      <meta name="keywords" content="openKB">
+      <meta name="keywords" content="leadwiki">
     {{/if}}
     <meta property="og:type" content="article" />
     <meta property="og:image" content="{{current_url}}/logo.png" />
@@ -55,7 +55,7 @@
     <script src="{{app_context}}/javascripts/markdown-it-classy.js"></script>
     <script src="{{app_context}}/javascripts/highlight.min.js"></script>
     <script src="{{app_context}}/markdown-it/markdown-it.min.js"></script>
-    <script src="{{app_context}}/javascripts/openKB.js"></script>
+    <script src="{{app_context}}/javascripts/leadwiki.js"></script>
     {{#ifCond user_page '===' true}}
       {{#if config.settings.google_analytics}}
         {{{config.settings.google_analytics}}}
@@ -132,7 +132,7 @@
     {{#if show_footer}}
       <footer class="footer">
         <div class="container">
-          <p>{{__ "Powered by"}} <a href="http://openkb.mrvautin.com/" target="_blank">openKB</a></p>
+          <p>{{__ "Powered by"}} <a href="http://leadwallet.io/" target="_blank">Lead Wallet</a></p>
         </div>
       </footer>
     {{/if}}

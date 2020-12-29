@@ -41,7 +41,7 @@
 	"false": "Yanlış",
 	"Controls whether to show the 'Website title' text or a logo located: '/public/logo.png' (by default)": "'Web sitesi başlığı' metnini veya '/public/logo.png' klasörde (varsayılan olarak) bulunan bir logo bulunan bir logo gösterip göstermeyeceğini kontrol eder",
 	"Website context/base URL": "Web sitesinin ortam/temel BBK'sı",
-	"Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/openkb/": "Web sayfasının ana klasörden farklı bir dosyadan yürütülmesine izin verir. Örneği: http://127.0.0.1:4444/openkb/",
+	"Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/leadwiki/": "Web sayfasının ana klasörden farklı bir dosyadan yürütülmesine izin verir. Örneği: http://127.0.0.1:4444/leadwiki/",
 	"Allow API access": "API erişimine izin verir",
 	"Whether to allow API access to insert articles - See documentation for further information": "Makaleleri eklemek için API erişimine izin verip vermeyeceği - Daha fazla bilgi için belgelere bakın",
 	"API access token": "API erişim jetonu",

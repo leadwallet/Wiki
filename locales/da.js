@@ -41,7 +41,7 @@
 	"false": "false",
 	"Controls whether to show the 'Website title' text or a logo located: '/public/logo.png' (by default)": "Styrer om der skal vises 'Side titel' tekst eller et logo placeret: '/public/logo.png' (som standard)",
 	"Website context/base URL": "Side kontekst/base URL",
-	"Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/openkb/": "Tillader at siden kan køres fra en ikke root-sti. Eksempel: http://127.0.0.1:4444/openkb/",
+	"Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/leadwiki/": "Tillader at siden kan køres fra en ikke root-sti. Eksempel: http://127.0.0.1:4444/leadwiki/",
 	"Allow API access": "Tillad API adgang",
 	"Whether to allow API access to insert articles - See documentation for further information": "Tillad API adgang til at oprette artikler - Se dokumenationen for mere info",
 	"API access token": "API adgangstoken",

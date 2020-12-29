@@ -1,23 +1,17 @@
-# openKB
+# Lead Wallet Wiki
 
-![logo](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/openkb/openkb_logo_small.png)
+![logo](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/Lead Wallet Wiki/Lead Wallet Wiki_logo_small.png)
 
-![npm downloads badge](https://nodei.co/npm/openkb.png?downloads=true "npm download badge")
+![npm downloads badge](https://nodei.co/npm/Lead Wallet Wiki.png?downloads=true "npm download badge")
 
-[![Build Status](https://travis-ci.org/mrvautin/openKB.svg?branch=master)](https://travis-ci.org/mrvautin/openkb)
+[![Build Status](https://travis-ci.org/mrvautin/Lead Wallet Wiki.svg?branch=master)](https://travis-ci.org/mrvautin/Lead Wallet Wiki)
 
-openKB is a Markdown Knowledge base application (FAQ) built with [Nodejs](https://nodejs.org/) and [ExpressJS](http://expressjs.com/). The application uses an embedded database ([nedb](https://github.com/louischatriot/nedb))
+Lead Wallet Wiki is  Knowledge base application (FAQ) built with [Nodejs](https://nodejs.org/) and [ExpressJS](http://expressjs.com/). The application uses an embedded database ([nedb](https://github.com/louischatriot/nedb))
 by default but can also use a MongoDB server by changing the config (see below). The application is designed to be easy to use and install and based around search rather than nested categories. Simply search for what you want and select from the results.
-
-Demo: [http://openkb.markmoffat.com](http://openkb.markmoffat.com)
-
-## Support
-
-If my work helps you, please consider [![buying me a coffee](https://cdn-images-1.medium.com/max/738/1*G95uyokAH4JC5Ppvx4LmoQ@2x.png)](https://www.buymeacoffee.com/mrvautin)
 
 ### Installation
 
-1. Clone Repository: `git clone https://github.com/mrvautin/openKB.git && cd openKB`
+1. Clone Repository: `git clone https://github.com/leadwallet/Wiki.git && cd Lead Wallet Wiki`
 2. Install dependencies: `npm install`
 3. Start application: `npm start`
 4. Go to  [http://127.0.0.1:4444](http://127.0.0.1:4444) in your browser
@@ -27,64 +21,16 @@ Running the application in Production using minified code can be done by:
 1. Create the minified/ugly files: `npm run uglify`
 2. Ensure the minified/ugly files are being used: `NODE_ENV=production node app.js`
 
-> Note: `openKB` supports Nodejs version 4.0 and above.
-
-### Deploy on Heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrvautin/openKB)
-
-### Hosted/Managed
-
-Don't want to manage, upgrade and install `openKB` yourself? [ezyFAQ](https://www.ezyfaq.com) is a hosted solution with all the benefits and features of `openKB` and more but using a fully managed/hosted
-platform.
-
+> Note: `Lead Wallet Wiki` supports Nodejs version 4.0 and above.
 ### Features
 
-- **Search**: openKB is a search based Knowledge base (FAQ) backed by [Lunr.js](https://github.com/olivernn/lunr.js/) indexing to create the best possible results on searches.
-- **Backend**: openKB uses the pure Javascript [nedb](https://github.com/louischatriot/nedb) embedded database by default or a MongoDB server.
-- **Design/Themes**: openKB is meant to be simple flat design. Themes can be added by creating a theme folder within `public/themes/`. See the example theme for more information.
-- **Responsive**: openKB is built using Bootstrap allowing it to be responsive and work on all devices. The `admin` can be a little difficult editing Markdown on smaller screens.
-- **Mermaid**: openKB allows for [Mermaid](http://knsv.github.io/mermaid/) charts in articles.
-- **Editor**: openKB uses Markdown-it which is based off the [CommonMark spec](http://spec.commonmark.org/). This allows for the very best Markdown experience.
-- **Image management**: openKB allows for drag and drop of images into articles. The image is automatically uploaded to the server in the background. Google Chrome users can also paste images directly from the clipboard.
-
-### Screenshots
-
-**Homepage**
-
-![Homepage](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/openkb/openkb_homepage_.png)
-
-**Responsive**
-
-![Responsive](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/openkb/openkb_desktop_mobile.png)
-
-**Fully Configurable**
-
-![Fully Configurable](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/openkb/openkb_settings.png)
-
-**Admin editor**
-
-![Editor](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/openkb/openkb_editor.png)
-
-**Article view**
-
-![Article view](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/openkb/openkb_articleview.png)
-
-**Admin article management**
-
-![Article filtering](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/openkb/openkb_articlefiltering.png)
-
-**Managing files**
-
-![Files](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/openkb/openkb_files.png)
-
-**This is a deliberate rip from [https://twitter.com](https://twitter.com) to show an example. All design and credit goes to [https://twitter.com](https://twitter.com) and not openKB.**
-
-![Theme](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/openkb/openkb_theme_example.png)
-
-**Live search/typeahead**
-
-![typeahead](https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/openkb/openkb_typeahead.png)
+- **Search**: Lead Wallet Wiki is a search based Knowledge base (FAQ) backed by [Lunr.js](https://github.com/olivernn/lunr.js/) indexing to create the best possible results on searches.
+- **Backend**: Lead Wallet Wiki uses the pure Javascript [nedb](https://github.com/louischatriot/nedb) embedded database by default or a MongoDB server.
+- **Design/Themes**: Lead Wallet Wiki is meant to be simple flat design. Themes can be added by creating a theme folder within `public/themes/`. See the example theme for more information.
+- **Responsive**: Lead Wallet Wiki is built using Bootstrap allowing it to be responsive and work on all devices. The `admin` can be a little difficult editing Markdown on smaller screens.
+- **Mermaid**: Lead Wallet Wiki allows for [Mermaid](http://knsv.github.io/mermaid/) charts in articles.
+- **Editor**: Lead Wallet Wiki uses Markdown-it which is based off the [CommonMark spec](http://spec.commonmark.org/). This allows for the very best Markdown experience.
+- **Image management**: Lead Wallet Wiki allows for drag and drop of images into articles. The image is automatically uploaded to the server in the background. Google Chrome users can also paste images directly from the clipboard.
 
 ### Admin
 
@@ -117,7 +63,7 @@ Most of the configuration can be done on the `/settings` page but there are some
 |`show_author_email`|Controls whether the authors email address is displayed in the meta. Requires "Show article meta data" to be true.|
 |`mermaid`|Whether to allow Mermaid charts within articles|
 |`mathjax`|Whether to allow MathJax inputs within articles|
-|`app_context`|Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/openkb/|
+|`app_context`|Allows for the website to be run from a non root path. Eg: http://127.0.0.1:4444/Lead Wallet Wiki/|
 |`links_blank_page`|Controls whether links within articles open a new page (tab)|
 |`add_header_anchors`|Whether to add HTML anchors to all heading tags for linking within articles or direct linking from other articles|
 |`typeahead_search`|Add live typeahead search results on the search inputs|
@@ -146,8 +92,8 @@ Valid `order` values are: `-1` or `1`
 
 ### Database setup
 
-By default, `openKB` uses an embedded Javascript database called [nedb](https://github.com/louischatriot/nedb) for easy installation. This works really well for small to medium sized applications but
-has it's limitations if you wanted to scale your application to handle many articles and concurrent users. For this reason, `openKB` also supports using a MongoDB server by simply changing the config file.
+By default, `Lead Wallet Wiki` uses an embedded Javascript database called [nedb](https://github.com/louischatriot/nedb) for easy installation. This works really well for small to medium sized applications but
+has it's limitations if you wanted to scale your application to handle many articles and concurrent users. For this reason, `Lead Wallet Wiki` also supports using a MongoDB server by simply changing the config file.
 
 Here is the `config.json` for the embedded database (NeDB):
 
@@ -162,7 +108,7 @@ Here is an example `config.json` for a MongoDB server. You can use your own loca
 ``` javascript
 "database": {
     "type": "mongodb",
-    "connection_string": "mongodb://127.0.0.1:27017/openkb"
+    "connection_string": "mongodb://127.0.0.1:27017/Lead Wallet Wiki"
 }
 ```
 
@@ -236,11 +182,11 @@ article numbers increase. If this is the case, you can simply just turn it off.
 
 ### Contributing
 
-Have design skills? Want to design theme(s) for `openKB`? Please design and submit PR.
+Have design skills? Want to design theme(s) for `Lead Wallet Wiki`? Please design and submit PR.
 
-### openKB examples
+### Lead Wallet Wiki examples
 
-Have openKB running on a public facing server? Submit a PR with your URL and it will be updated here.
+Have Lead Wallet Wiki running on a public facing server? Submit a PR with your URL and it will be updated here.
 
 ### Running in production
 

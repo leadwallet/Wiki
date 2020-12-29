@@ -3167,20 +3167,20 @@ fieldset[disabled] a.btn {
 .btn-default:focus,
 .btn-default.focus {
   color: #ffffff;
-  background-color: #798d8f;
-  border-color: #566566;
+  background-color: #270931;
+  border-color:#270931;
 }
 .btn-default:hover {
   color: #ffffff;
-  background-color: #798d8f;
-  border-color: #74898a;
+  background-color: #270931;
+  border-color: #270931;
 }
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #ffffff;
-  background-color: #798d8f;
-  border-color: #74898a;
+  background-color: #270931;
+  border-color: #270931;
 }
 .btn-default:active:hover,
 .btn-default.active:hover,
@@ -3192,8 +3192,8 @@ fieldset[disabled] a.btn {
 .btn-default.active.focus,
 .open > .dropdown-toggle.btn-default.focus {
   color: #ffffff;
-  background-color: #687b7c;
-  border-color: #566566;
+  background-color: #270931;
+  border-color: #270931;
 }
 .btn-default:active,
 .btn-default.active,
@@ -3224,8 +3224,8 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary:focus,
 .btn-primary.focus {
   color: #ffffff;
-  background-color: #1a242f;
-  border-color: #000000;
+  background-color: #270931;
+  border-color: #270931;
 }
 .btn-primary:hover {
   color: #ffffff;
@@ -3282,19 +3282,19 @@ fieldset[disabled] .btn-primary.focus {
 .btn-success.focus {
   color: #ffffff;
   background-color: #b11264;
-  border-color: #0a4b3e;
+  border-color: #b11264;
 }
 .btn-success:hover {
   color: #ffffff;
   background-color: #b11264;
-  border-color: #11866f;
+  border-color: #b11264;
 }
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
   color: #ffffff;
   background-color: #b11264;
-  border-color: #11866f;
+  border-color: #b11264;
 }
 .btn-success:active:hover,
 .btn-success.active:hover,
@@ -3306,8 +3306,8 @@ fieldset[disabled] .btn-primary.focus {
 .btn-success.active.focus,
 .open > .dropdown-toggle.btn-success.focus {
   color: #ffffff;
-  background-color: #0e6f5c;
-  border-color: #0a4b3e;
+  background-color: #270931;
+  border-color: #270931;
 }
 .btn-success:active,
 .btn-success.active,

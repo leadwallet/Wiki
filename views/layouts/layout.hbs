@@ -28,15 +28,15 @@
           <meta name="description" content="{{config.settings.website_description}}">
           <meta property="og:description" content="{{config.settings.website_description}}" />
         {{else}}
-          <meta name="description" content="{{__ "Powered by"}} openKB">
-          <meta property="og:description" content="openKB is an Open Source Node.js Markdown based knowledge base/FAQ/Wiki app with powerful lunr search" />
+          <meta name="description" content="{{__ "Powered by"}} LeadWiki">
+          <meta property="og:description" content="LeadWiki is an Open Source Node.js based knowledge base/FAQ/Wiki app with powerful lunr search" />
         {{/ifCond}}
       {{/if}}
     {{/if}}
     {{#if result.kb_keywords}}
       <meta name="keywords" content="{{result.kb_keywords}}">
     {{else}}
-      <meta name="keywords" content="openKB">
+      <meta name="keywords" content="LeadWiki">
     {{/if}}
     <meta property="og:type" content="article" />
     <meta property="og:image" content="{{current_url}}/logo.png" />
@@ -82,7 +82,7 @@
     {{/ifCond}}
     <script src="{{app_context}}/javascripts/sanitizer.min.js"></script>
     <script src="{{app_context}}/javascripts/jpushmenu{{config.settings.env}}.js"></script>
-    <script src="{{app_context}}/javascripts/openKB{{config.settings.env}}.js"></script>
+    <script src="{{app_context}}/javascripts/LeadWiki{{config.settings.env}}.js"></script>
     {{#ifCond user_page '===' true}}
       <style>{{{simpleCSS config}}}</style>
       {{#if config.settings.google_analytics}}
@@ -104,7 +104,7 @@
             {{#ifCond config.settings.show_website_logo '===' true}}
               <a class="navbar-brand brand-image" href="{{app_context}}/"><img src="{{app_context}}/static/logo.png" width="140"></a>
             {{else}}
-                {{#ifCond config.settings.website_title '===' 'openKB'}}
+                {{#ifCond config.settings.website_title '===' 'LeadWiki'}}
                   <a class="navbar-brand brand-image" href="{{app_context}}/"><img src="{{app_context}}/static/logo.png" width="140"></a>
                 {{else}}
                   <a class="navbar-brand" href="{{app_context}}/">{{config.settings.website_title}}</a>
@@ -170,7 +170,7 @@
     {{#if show_footer}}
       <footer class="footer">
         <div class="container">
-          <p class="text-muted">{{__ "Powered by"}} <a href="http://openkb.mrvautin.com/" target="_blank">openKB</a></p>
+          <p class="text-muted">{{__ "Powered by"}} <a href="https://leadwallet.io/" target="_blank">Lead Wallet</a></p>
         </div>
       </footer>
     {{/if}}

@@ -324,8 +324,8 @@ if(config.settings.database.type === 'embedded'){
 
         // lift the app
         app.listen(app.get('port'), app.get('bind'), () => {
-            console.log('openKB running on host: http://' + app.get('bind') + ':' + app.get('port'));
-            app.emit('openKBstarted');
+            console.log('LeadWiki running on host: http://' + app.get('bind') + ':' + app.get('port'));
+            app.emit('LeadWikistarted');
         });
     });
 }else{
@@ -350,8 +350,8 @@ if(config.settings.database.type === 'embedded'){
             app.index = index;
             // lift the app
             app.listen(app.get('port'), app.get('bind'), () => {
-                console.log('openKB running on host: http://' + app.get('bind') + ':' + app.get('port'));
-                app.emit('openKBstarted');
+                console.log('LeadWiki running on host: http://' + app.get('bind') + ':' + app.get('port'));
+                app.emit('LeadWikistarted');
             });
         });
     });

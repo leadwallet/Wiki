@@ -1,7 +1,7 @@
 {
-  "name": "openkb",
+  "name": "leadwallet-blog",
   "version": "1.0.23",
-  "description": "openKB is an Open Source Nodejs Markdown based knowledge base/FAQ/Wiki app with powerful lunr search",
+  "description": "LeadWallet is an Open Source  based knowledge base/FAQ/Wiki app with powerful lunr search",
   "private": false,
   "scripts": {
     "start": "node app.js",
@@ -70,28 +70,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrvautin/openKB.git"
+    "url": "git+https://github.com/leadwallet/Wiki.git"
   },
   "keywords": [
     "knowledge base",
-    "markdown",
     "express",
     "nedb",
     "documentation",
     "platform",
     "nodejs",
-    "kb",
+    "leadwallet",
     "documentation",
     "faq",
     "wiki",
-    "openkb",
     "mongodb"
   ],
-  "author": "Mark Moffat",
+  "author": "Sam Ayorinde",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mrvautin/openKB/issues"
+    "url": "https://github.com/leadwallet/Wiki/issues"
   },
-  "homepage": "https://openkb.markmoffat.com",
+  "homepage": "https://leadwallet.io",
   "snyk": true
 }
